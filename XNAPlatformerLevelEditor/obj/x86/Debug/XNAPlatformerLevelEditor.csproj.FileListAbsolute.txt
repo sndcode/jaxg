@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\bin\Debug\XNAPlatformerLevelEditor.exe
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\bin\Debug\XNAPlatformerLevelEditor.pdb
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.NewLevelForm.resources
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.Properties.Resources.resources
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.exe
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.pdb
+C:\Users\admin\Desktop\FinalMirage-xna-platformer-level-editor-b203b2bade3d\XNAPlatformerLevelEditor\obj\x86\Debug\XNAPlatformerLevelEditor.frmMain.resources
