@@ -127,6 +127,7 @@
             this.Controls.Add(this.okButton);
             this.Name = "NewLevelForm";
             this.Text = "NewLevelForm";
+            this.Load += new System.EventHandler(this.NewLevelForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

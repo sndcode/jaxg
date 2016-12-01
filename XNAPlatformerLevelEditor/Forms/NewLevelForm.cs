@@ -29,5 +29,12 @@ namespace XNAPlatformerLevelEditor
             OKPressed = false;
             Close();
         }
+
+        private void NewLevelForm_Load(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            int rndint = rnd.Next(1, 99);
+            nameTextBox.Text = rndint.ToString();
+        }
     }
 }

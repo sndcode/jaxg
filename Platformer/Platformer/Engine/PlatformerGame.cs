@@ -114,6 +114,10 @@ namespace Platformer
                          accelerometerState, Window.CurrentOrientation);
 
             base.Update(gameTime);
+            string windowcaption = "" ;
+            if (Program.debugmode) { windowcaption = "DEBUG MODE"; }
+            else if (!Program.debugmode) { windowcaption = "Test Build"; }
+            this.Window.Title = windowcaption;
         }
 
         private void HandleInput()
@@ -163,8 +167,21 @@ namespace Platformer
                 level.Dispose();
 
             // Load the level.
-            string levelPath = string.Format("Content/Levels/{0}.txt", levelIndex);
-            using (Stream fileStream = TitleContainer.OpenStream(levelPath))
+            string levelPath = string.Format("Content/Levels/build/{0}.txt", levelIndex);
+            string levelPathDebug = string.Format("Content/Levels/indev/dev_01.txt", levelIndex);
+
+            string levelToLoad;
+
+            if (Platformer.Program.debugmode)
+            {
+                levelToLoad = levelPathDebug;
+            }
+            else
+            {
+                levelToLoad = levelPath;
+            }
+
+            using (Stream fileStream = TitleContainer.OpenStream(levelToLoad))
                 level = new Level(Services, fileStream, levelIndex);
         }
 

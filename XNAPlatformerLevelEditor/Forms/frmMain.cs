@@ -143,7 +143,7 @@ namespace XNAPlatformerLevelEditor
             LoadAllTextures();
 
             //Load the texture that displays the grid lines
-            using (Stream stream = File.OpenRead(pathToEditorFolder + "gridTexture.png"))
+            using (Stream stream = File.OpenRead(pathToEditorFolder + "\\Resources\\" + "gridTexture.png"))
                 gridTexture = Texture2D.FromStream(GraphicsDevice, stream);
 
             openFileDialog1.Filter = "Text Files|*.txt";

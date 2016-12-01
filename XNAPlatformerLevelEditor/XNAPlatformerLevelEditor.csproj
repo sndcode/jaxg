@@ -48,34 +48,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Camera.cs" />
-    <Compile Include="frmMain.cs">
+    <Compile Include="Classes\Camera.cs" />
+    <Compile Include="Forms\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
+    <Compile Include="Forms\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="GraphicsDeviceControl.cs">
+    <Compile Include="Classes\GraphicsDeviceControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="GraphicsDeviceService.cs" />
-    <Compile Include="NewLevelForm.cs">
+    <Compile Include="Classes\GraphicsDeviceService.cs" />
+    <Compile Include="Forms\NewLevelForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewLevelForm.Designer.cs">
+    <Compile Include="Forms\NewLevelForm.Designer.cs">
       <DependentUpon>NewLevelForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceContainer.cs" />
-    <Compile Include="Tile.cs" />
-    <Compile Include="TileDisplay.cs">
+    <Compile Include="Classes\ServiceContainer.cs" />
+    <Compile Include="Classes\Tile.cs" />
+    <Compile Include="Classes\TileDisplay.cs">
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="frmMain.resx">
+    <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLevelForm.resx">
+    <EmbeddedResource Include="Forms\NewLevelForm.resx">
       <DependentUpon>NewLevelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -99,7 +99,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gridTexture.png" />
+    <Content Include="Resources\gridTexture.png" />
     <None Include="Resources\picture_add.png" />
     <None Include="Resources\layer_delete.png" />
     <None Include="Resources\layer_add.png" />
